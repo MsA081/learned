@@ -19,3 +19,6 @@ python -m poetry add package-name
 
 # start project with django
 python -m poetry run django-admin startproject core .
+
+# build apps
+python -m poetry run django-admin startapp users .
