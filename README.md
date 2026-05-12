@@ -16,3 +16,6 @@ git push origin branch-name
 python -m poetry new project-name
 cd .\homino\
 python -m poetry add package-name
+
+# start project with django
+python -m poetry run django-admin startproject core .
