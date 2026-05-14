@@ -1,1 +1,14 @@
-"C:\Users\sina\AppData\Local\pypoetry\Cache\virtualenvs\homino-2eZpn5Ba-py3.14\Scripts\activate.bat"
+# Cache پایتون
+*.pyc
+__pycache__/
+
+# دیتابیس لوکال
+db.sqlite3
+
+# محیط مجازی (با توجه به اینکه از Poetry استفاده می‌کنی)
+.venv/
+virtualenvs/
+
+# فایل‌های حساس
+.env
+core/settings/local.py
