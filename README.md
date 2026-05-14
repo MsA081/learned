@@ -12,10 +12,18 @@ git commit -m "...."
 git checkout branch-name
 git push origin branch-name
 
+git rm --cached
+
+git commit -m "Remove unwanted file"
+
 # poetry
 python -m poetry new project-name
 cd .\homino\
 python -m poetry add package-name
+
+# restart poetry
+python -m poetry env activate
+(دقت کن که در انتهای آدرس، به جای `activate.bat` نوشتم `Activate.ps1`)
 
 # start project with django
 python -m poetry run django-admin startproject core .
